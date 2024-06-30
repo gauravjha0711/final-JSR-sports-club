@@ -1,0 +1,360 @@
+
+body
+{
+    scroll-behavior: smooth;
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.navbar
+{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    text-align: center top;
+    grid-template-columns: 1fr 2.5fr 0.5fr;
+    justify-content:start;
+    align-items: center top;
+    position: sticky;
+    top:0;
+    color: #fff;
+    background-color: rgb(29, 29, 29);
+    
+    box-sizing: border-box;
+    z-index: 2;
+  
+}
+.navbar img
+{
+    height: 70px;
+    width: 70px;
+    margin: auto;
+}
+
+.navbar ul li :hover
+{
+    font-size: large;
+    transition: .5s;
+    color: #fff;
+}
+.navbar ul li :visited{
+    color: #fff;
+}
+#jsrbig,#jsrsmall{
+    color: coral;
+}
+#jsrbig{
+    display: none;
+}
+
+
+.navbar .btn
+{
+    color:#fff;
+    background-color: crimson;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin:15px auto;
+
+}
+.navbar .btn:hover
+{
+    color:#fff;
+    background-color: rgb(255, 81, 0);
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin:25px;
+    font-size: large;
+    transition: .5s;
+    
+    
+
+}
+
+.navbar ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style:none;
+    text-align: center;
+    
+}
+.navbar ul li
+{
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: .5s;
+    color:rgb(204, 207, 255);
+}
+
+
+    
+    
+.top{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    height: 700px;
+    
+    background-image:url("img/sbg.jpeg")
+    
+}
+
+.top img{
+    height: 350px;
+    width: 350px;
+    margin: 20px 0px;
+    
+}
+@media only screen and (min-width:790px) {
+    #jsrbig{
+        display: block;
+    }
+    #jsrsmall{
+        display: none;
+    }
+    .top img{
+        height: 350px;
+        width: 350px;
+        
+    }
+}
+@media only screen and (min-width:300px) {
+
+    .top img{
+        height: 250px;
+        width: 250px;    
+        
+    }
+}
+
+
+
+.service
+{
+    width: 100%;
+    margin: auto;
+    padding: 25px opx;
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+    background-color: rgba(53, 73, 73, 0.103)
+}
+.service .text
+{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(18, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding:50px 20px;
+    border-radius: 25px;
+    box-sizing: border-box;
+}
+.service .text h1
+{
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    
+    color: rgb(0, 0, 0);
+}
+
+.service .box{
+    display:grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 1%;
+    background-color: rgba(53, 73, 73, 0.103);
+
+}
+.logoline{
+    text-align: center;
+    color: #000000;
+    
+
+}
+.videohead{
+    background-color: #d7ffc3;
+    text-align: center;
+    color: #000000;
+    font-family: sans-serif;
+}
+.video{
+    border: 10px solid rgb(255, 146, 22);
+    border-radius:3px;
+    height: min-content;
+    opacity: 50px;;
+
+}
+.service .item{
+    height: 300px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-left: 15px ;
+    padding-right: 15px ;
+    width: 200px;
+}
+.service h2
+{
+    background-color: rgba(118, 179, 233, 0.148);
+    border-radius: 5px;
+    padding: 10px ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.service .item img{
+    height: 200px;
+    width: 200px;
+    z-index: 1;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -5px #777;
+     
+}
+.service .text .cntct.box
+{
+    size: 100%;
+    display: flex;
+
+}
+
+@media only screen and (max-width: 50px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 700px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media only screen and (min-width: 900px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media only screen and (min-width: 1100px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .service .box{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+.about
+{   
+    display:grid;
+    width: 90%;
+    height: 50vh;
+  
+    padding: 10px;
+    margin-left: 5%;
+    background-color: rgba(234, 234, 234, 0.811);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    box-sizing: border-box;
+    background: url("img/ABG.png");
+}
+.about h1 b{
+    text-align: center;
+    justify-content: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    word-spacing: 1%;
+}
+
+.mission
+{
+    width: 100%;
+    text-align: left;
+    padding-right: 2%;
+}
+.vision
+{
+    width: 100%;
+    padding-top: 5%;
+    text-align:left;
+    padding-left: 2%;
+}
+.contact
+{
+    
+    padding-top: 5%;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(153, 197, 214, 0.555);
+    padding: 5%;
+    margin: 10%;
+    border-radius:5%
+    
+    
+}
+/* Style inputs with type="text", select elements and textareas */
+.contact input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  .contact input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  .contact input[type=submit]:hover {
+    background-color: #45a049;
+
+  }
+  
+  /* Add a background color and some padding around the form */
+  .contact.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  

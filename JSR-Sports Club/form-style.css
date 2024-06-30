@@ -1,0 +1,50 @@
+.regform
+{   
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    padding-left: 25%;
+    padding-right: 25%;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1300px;
+    background: rgba(255, 255, 255, 0.889);
+}
+.regform h1{
+    padding-left: 105px;
+}
+.regform form
+{   
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border-radius: 5%;
+    padding: 25px;
+    align-items: center;
+}
+.sbtn
+{   
+    size: large;
+    padding: 15px;
+    border-radius: 25%;
+    
+}
+
+.regform input
+{
+border-radius: 15px;
+}
+.gender
+{
+    font-size: small;
+}
+.gender h3
+{
+    font-size: large;
+}
+img{
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    padding-left: 25%;
+}
